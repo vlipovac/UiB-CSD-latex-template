@@ -317,38 +317,45 @@
 {
     \hbox to \paperwidth
     {%
-        \begin{beamercolorbox}[wd = 0.33\paperwidth,
+        \begin{beamercolorbox}[wd = 0.30\paperwidth,
                                ht = 2.25ex,
                                dp = 1ex]
                               {section in head/foot}
 
-                \hfil
+                \hspace*{\fill}
                 \usebeamerfont{author in head/foot}
                 \insertshortauthor
-                \hfil
+                \hspace*{\fill}
         \end{beamercolorbox}%
-        \begin{beamercolorbox}[wd = 0.34\paperwidth,
+        \begin{beamercolorbox}[wd = 0.30\paperwidth,
                                ht = 2.25ex,
                                dp = 1ex]
                               {section in head/foot}
 
-                \hfil
+                \hspace*{\fill}
                 \usebeamerfont{title in head/foot}
                 % \insertshorttitle
                 \insertsection
-                \hfil
+                \hspace*{\fill}
         \end{beamercolorbox}%
-        \begin{beamercolorbox}[wd = 0.33\paperwidth,
+        \begin{beamercolorbox}[wd = 0.30\paperwidth,
                                ht = 2.25ex,
                                dp = 1ex]
                               {section in head/foot}
 
-                \hfil
+                \hspace*{\fill}
                 \usebeamerfont{date in head/foot}
                 \insertshortdate
-                \hspace*{2em}
+                \hspace*{\fill}
+        \end{beamercolorbox}%
+        \begin{beamercolorbox}[wd = 0.10\paperwidth,
+                               ht = 2.25ex,
+                               dp = 1ex]
+                              {section in head/foot}
+
+                \hspace*{\fill}
                 \insertframenumber{} / \inserttotalframenumber
-                \hspace*{2ex}
+                \hspace*{\fill}
         \end{beamercolorbox}
     }
     \vskip0pt
