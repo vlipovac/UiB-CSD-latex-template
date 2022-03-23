@@ -1,7 +1,7 @@
 \documentclass[UKenglish]{beamer}
 
 
-\usetheme{UiB}
+\usetheme{UiBCSD}
 
 
 \usepackage[utf8]{inputenx} % For æ, ø, å
@@ -16,29 +16,56 @@
 \usetikzlibrary{overlay-beamer-styles}  % Overlay effects for TikZ
 
 
-\author{Martin Helsø}
-\title{Beamer example}
-\subtitle{Usage of the theme \texttt{UiB}}
+\author{Veljko Lipovac}
+\title{Beamer example - CSD rework}
+\subtitle{Usage of the theme \texttt{UiBCSD}}
+\date{\today} % \date{01.01.1970}
 
 
 \begin{document}
 
 
 \section{Overview}
-% Use
-%
-%     \begin{frame}[allowframebreaks]{Title}
-%
-% if the TOC does not fit one frame.
+
 \begin{frame}{Table of contents}
     \tableofcontents[currentsection]
 \end{frame}
 
+\section{Branding}
+\subsection{Logos}
+
+\showlogo
+\begin{frame}{UiB Emblem}
+    For displaying the the UiB emblem at the lower right corner,
+    use the command \structure{\textbackslash showlogo} outside the frame environment.
+    \doublenewline
+    Use \structure{\textbackslash hidelogo} to remove it from a frame.
+\end{frame}
+
+\showCSDlogo
+\begin{frame}{UiB-CSD logo}
+ For displaying the the UiB emblem at the lower right corner,
+	use the command \structure{\textbackslash showlogo} outside the frame environment.
+	\doublenewline
+	Use \structure{\textbackslash hidelogo} to remove it from a frame.
+	\doublenewline
+    For displaying the the UiB emblem with CSD lettering,
+    use the command \structure{\textbackslash showCSDlogo} outside the frame environment.
+\end{frame}
+
+\showVISTACSDlogo
+\begin{frame}{UiB-CSD and VISTA logo}
+	For displaying the the UiB emblem with CSD lettering and additionally the VISTA logo,
+	use the command \structure{\textbackslash showVISTACSDlogo} outside the frame environment.
+	\doublenewline\doublenewline
+	\alert{Logos are hidden by default from the beginning}.
+	\doublenewline
+	The last logo command will hold for all following frames until new command is given.
+\end{frame}
 
 \section{Mathematics}
 \subsection{Theorem}
-
-
+\hidelogo
 \begin{frame}{Mathematics}
     \begin{theorem}[Fermat's little theorem]
         For a prime~\(p\) and \(a \in \mathbb{Z}\) it holds that \(a^p \equiv a \pmod{p}\).
@@ -60,7 +87,6 @@
 
 \subsection{Example}
 
-
 \begin{frame}{Mathematics}
     \begin{example}
         The function \(\phi \colon \mathbb{R} \to \mathbb{R}\) given by \(\phi(x) = 2x\) is continuous at the point \(x = \alpha\),
@@ -75,7 +101,6 @@
 
 \section{Highlighting}
 \SectionPage
-
 
 \begin{frame}{Highlighting}
     Sometimes it is useful to \alert{highlight} certain words in the text.
@@ -153,7 +178,7 @@
     \end{columns}
     
     \begin{textblock}{0.3}(0.45, 0.55)
-        \includegraphics<1, 3>[width = \textwidth]{UiB-images/UiB-emblem}
+        \includegraphics<1, 3>[width = \textwidth]{UiB-CSD-images/UiB-emblem.pdf}
     \end{textblock}
 \end{frame}
 

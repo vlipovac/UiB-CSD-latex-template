@@ -1,4 +1,24 @@
-# UiB
+# How-To
+Copy the file `beamerthemeUiBCSD.sty` and the images folder into your custom project
+s.t. the resulting structure is something like
+```
+my-project
+├── UiB-CSD-images
+│   ├── UiB-emblem.pdf
+│   ├── UiB-logo-bm.pdf
+│   ├── UiB-logo-eng.pdf
+│   ├── UiB-logo-nn.pdf
+│   └── UiO-emblem.pdf
+├── beamerthemeUiBCSD.sty
+└── ...
+```
+Bind the theme into your LaTex file by using
+```
+\usetheme{UiBCSD}
+```
+For the rest of of the documentation, see [Martin Helmø's original work](https://github.com/martinhelso/UiB).    
+Below you will find his original `README`.
+## UiB
 Beamer theme for the University of Bergen
 
 Available on [Overleaf](https://www.overleaf.com/latex/templates/uib-beamer-theme/ddsnzprthmfv).

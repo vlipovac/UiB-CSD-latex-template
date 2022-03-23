@@ -269,8 +269,10 @@
             \usebeamerfont{author}
             \insertauthor
             \vfill
+            \includegraphics[height = 0.2\paperheight]{UiB-CSD-images/UiB-CSD-logo-high.pdf}
             \hfill
-            \includegraphics[scale = 0.4]{UiB-images/UiB-logo-\UiBlang}
+            \includegraphics[height = 0.2\paperheight]{UiB-CSD-images/VISTA-logo.png}
+            
         \end{minipage}
     \end{beamercolorbox}
     \vspace*{-1.3em}
@@ -351,15 +353,40 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\newcommand{\doublenewline}
+{
+    \newline\newline
+}
+
 \newcommand{\hidelogo}{\logo{}}
 \newcommand{\showlogo}
 {
     \logo
     {
-        \includegraphics[height = 0.1\paperheight]{UiB-images/UiB-emblem}
+        \includegraphics[height = 0.1\paperheight]{UiB-CSD-images/UiB-emblem}
     }
 }
-\showlogo
+\hidelogo
+
+\newcommand{\showCSDlogo}
+{
+    \logo
+    {
+        \includegraphics[height = 0.1\paperheight]{UiB-CSD-images/UiB-CSD-logo-rightbound.pdf}
+    }
+}
+\hidelogo
+
+\newcommand{\showVISTACSDlogo}
+{
+    \logo
+    {
+        \includegraphics[height = 0.1\paperheight]{UiB-CSD-images/UiB-CSD-logo-rightbound.pdf}
+        \hspace{0.5cm}
+        \includegraphics[height = 0.1\paperheight]{UiB-CSD-images/VISTA-logo.png}
+    }
+}
+\hidelogo
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

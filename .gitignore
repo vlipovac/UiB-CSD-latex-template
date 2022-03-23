@@ -1,0 +1,88 @@
+# Logs and databases
+.tmp
+*.sql
+*.sqlite
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Linux (ok)
+*~
+
+# macOS General (ok)
+*.dmg
+*.DS_Store
+.AppleDouble/
+
+# Windows
+*.dll
+*.exe
+*.db
+*.stackdump
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# LaTeX
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+*.dvi
+*.xdv
+*-converted-to.*
+*.ps
+*.eps
+*.nav
+*.snm
+
+# IDE Misc.
+*#
+.idea/
+nbproject/
+.vscode/
+.spyderproject
+.spyproject
+
+# Files Misc.
+*.7z
+*.dat
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.class
+*.o
+*.seed
+*.so
+*.swo
+*.swp
+*.swn
+*.swm
+*.pid
+*.pyc
+*.py#
+*.py~
+*.un~
+*.pos
+*.mtx
+*.m
+*.fab
+*.mat
+*.py_o
+*.txt
