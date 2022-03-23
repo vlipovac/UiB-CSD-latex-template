@@ -4,11 +4,14 @@ s.t. the resulting structure is something like
 ```
 my-project
 ├── UiB-CSD-images
+│   ├── UiB-CSD-logo-high.pdf
+│   ├── UiB-CSD-logo-rightbound.pdf
 │   ├── UiB-emblem.pdf
 │   ├── UiB-logo-bm.pdf
 │   ├── UiB-logo-eng.pdf
 │   ├── UiB-logo-nn.pdf
-│   └── UiO-emblem.pdf
+│   ├── UiO-emblem.pdf
+│   └── VISTA-logo.png
 ├── beamerthemeUiBCSD.sty
 └── ...
 ```
