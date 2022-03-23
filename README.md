@@ -7,20 +7,25 @@ my-project
 │   ├── UiB-CSD-logo-high.pdf
 │   ├── UiB-CSD-logo-rightbound.pdf
 │   ├── UiB-emblem.pdf
-│   ├── UiB-logo-bm.pdf
-│   ├── UiB-logo-eng.pdf
-│   ├── UiB-logo-nn.pdf
-│   ├── UiO-emblem.pdf
-│   └── VISTA-logo.png
+│   ├── VISTA-logo.png
+│   └── unused
+│       ├── UiB-logo-bm.pdf
+│       ├── UiB-logo-eng.pdf
+│       └── UiB-logo-nn.pdf
 ├── beamerthemeUiBCSD.sty
 └── ...
 ```
+As the name suggests, the subdirectory `unused` contains non-critical files and can be omitted.
+They are part of the original code by Martin Helmø.
+
+
 Bind the theme into your LaTex file by using
 ```
 \usetheme{UiBCSD}
 ```
-For the rest of of the documentation, see [Martin Helmø's original work](https://github.com/martinhelso/UiB).    
-Below you will find his original `README`.
+For the rest of of the documentation, see [Martin Helmø's original work](https://github.com/martinhelso/UiB), or the enclosed example `main.pdf` and `main.tex`.
+
+Below follows the original `README`.
 ## UiB
 Beamer theme for the University of Bergen
 
