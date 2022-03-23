@@ -16,14 +16,14 @@ my-project
 └── ...
 ```
 As the name suggests, the subdirectory `unused` contains non-critical files and can be omitted.
-They are part of the original code by Martin Helmø.
+They are part of the original code by Martin Helsø.
 
 
 Bind the theme into your LaTex file by using
 ```
 \usetheme{UiBCSD}
 ```
-For the rest of of the documentation, see [Martin Helmø's original work](https://github.com/martinhelso/UiB), or the enclosed example `main.pdf` and `main.tex`.
+For the rest of of the documentation, see [Martin Helsø's original work](https://github.com/martinhelso/UiB), or the enclosed example `main.pdf` and `main.tex`.
 
 Below follows the original `README`.
 ## UiB
